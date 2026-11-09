@@ -1,0 +1,2 @@
+# Model card - retrieval + grounded copilot
+Hybrid BM25 + dense (RRF) + reranker over a synthetic policy/typology/case corpus with metadata filters (status=current), prompt-injection quarantine, PII masking, refusal of customer-impacting actions and low-confidence refusal. The default copilot is extractive (every sentence is built from cited evidence); an optional LLM can be enabled and is then checked by the same groundedness test.

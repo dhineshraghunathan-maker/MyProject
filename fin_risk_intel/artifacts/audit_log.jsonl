@@ -1,0 +1,1 @@
+{"customer": "C00827", "tier": "LOW", "score": 0.483, "decision": "Request manual evidence search", "reviewer": "Investigator-1", "notes": "", "rating": 4, "unsupported_noticed": false, "evidence": ["TYP-MULE-01", "CASE-005", "CASE-015"], "llm_used": false, "ts": "2026-11-09 19:58:12"}

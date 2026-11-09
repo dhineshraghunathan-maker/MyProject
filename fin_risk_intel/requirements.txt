@@ -1,0 +1,13 @@
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+networkx>=3.2
+scipy>=1.11
+plotly>=5.18
+pillow>=10.0
+joblib>=1.3
+streamlit>=1.38
+# ---- optional upgrades (see README) ----
+# sentence-transformers      # real dense embeddings + cross-encoder reranker  (set USE_TRANSFORMERS=1)
+# pytesseract                # real OCR on the synthetic KYC images (needs the Tesseract binary)
+# anthropic                  # optional LLM narrative (set ANTHROPIC_API_KEY)

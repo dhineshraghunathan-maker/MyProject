@@ -1,0 +1,17 @@
+entity,fields,type,description
+Customer,customer_id,str,Pseudonymous customer key
+Customer,segment/region/age_band,str,"Used ONLY for fairness audit and peer grouping, never as model inputs (except segment peer-group z-score)"
+Customer,"occupation, occ_risk",str/float,Declared occupation and rule-based occupation risk
+Customer,"declared_income, source_of_income, income_range, pep, id_type",mixed,Synthetic profile fields for onboarding and compliance review
+Customer,country_risk,int,1 if nationality/residence linked to a high-risk jurisdiction
+Customer,"ring_id, fraud_type, is_fraud",mixed,Investigation OUTCOME (ground truth label; delayed in reality)
+Account,account_id,str,One account per customer (AC + customer_id)
+Document,"doc_name, doc_dob, doc_address, id_type, id_number, doc_occupation, doc_source_of_income, doc_income_range, doc_pep",str,Fields read from the identity document / KYC form
+Document,declared_*,str,Fields typed on the application
+Document,doc_mismatch,float,"1 - weighted similarity(declared, document)"
+Device,device_id,str,Home device (customers.device_id) or device observed on transaction
+Beneficiary,beneficiary_id,str,"Payee / payer identifier; M* = merchants (high degree, ignored in graph)"
+Transaction,"txn_id, customer_id, date, hour, amount, direction, channel, country",mixed,Debit/credit event
+Transaction,is_fraud_txn,bool,Synthetic ground truth for injected fraud events
+Alert,"customer_id, tier, ens_full, rule_hits, reasons",mixed,Prioritised alert produced by decisioning (artifacts/alerts.csv)
+Outcome,"is_fraud, fraud_type",mixed,Confirmed outcome used for time-based evaluation

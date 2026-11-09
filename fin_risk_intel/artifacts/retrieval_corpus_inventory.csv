@@ -1,0 +1,65 @@
+chunk_id,doc_type,title,page,modality,status,injection_flag
+POL-AML-07,policy,Structuring and threshold avoidance,3,text,current,False
+POL-KYC-03,policy,Beneficial ownership capture,2,text,current,False
+POL-KYC-05,policy,Identity document mismatch,4,text,current,False
+TYP-MULE-01,typology,Money mule typology,1,text,current,False
+TYP-ATO-02,typology,Account takeover typology,1,text,current,False
+TYP-SCAM-03,typology,Authorised push payment scam typology,1,text,current,False
+POL-CDD-09,policy,High-risk jurisdiction due diligence,5,text,current,False
+POL-SAR-11,policy,Escalation and reporting,6,text,current,False
+POL-DATA-02,policy,Privacy and data minimisation,2,text,current,False
+POL-AI-04,policy,Human oversight of AI outputs,1,text,current,False
+POL-VEL-06,policy,Velocity monitoring,3,text,current,False
+REG-FATF-DI,regulatory,Digital identity guidance (illustrative summary),7,text,current,False
+TBL-ESC-04,table,Escalation matrix,8,table,current,False
+IMG-STAMP-01,image,Scanned document page,2,image,current,False
+IMG-NET-02,image,Scanned document page,3,image,current,False
+IMG-LEDGER-03,image,Scanned document page,4,image,current,False
+IMG-LOGIN-04,image,Scanned document page,5,image,current,False
+IMG-STMT-05,image,Scanned document page,6,image,current,False
+IMG-CHAT-06,image,Scanned document page,7,image,current,False
+POL-AML-07@v1,policy,Structuring and threshold avoidance (superseded v1),3,text,superseded,False
+POL-VEL-06@v1,policy,Velocity monitoring (superseded v1),3,text,superseded,False
+POL-CDD-09@v1,policy,High-risk jurisdiction due diligence (superseded v1),5,text,superseded,False
+POL-OPS-99,policy,Operations note,9,text,current,True
+CASE-099,case,Prior case note,1,text,current,True
+CASE-001,case,Prior case note,1,text,current,False
+CASE-002,case,Prior case note,1,text,current,False
+CASE-003,case,Prior case note,1,text,current,False
+CASE-004,case,Prior case note,1,text,current,False
+CASE-005,case,Prior case note,1,text,current,False
+CASE-006,case,Prior case note,1,text,current,False
+CASE-007,case,Prior case note,1,text,current,False
+CASE-008,case,Prior case note,1,text,current,False
+CASE-009,case,Prior case note,1,text,current,False
+CASE-010,case,Prior case note,1,text,current,False
+CASE-011,case,Prior case note,1,text,current,False
+CASE-012,case,Prior case note,1,text,current,False
+CASE-013,case,Prior case note,1,text,current,False
+CASE-014,case,Prior case note,1,text,current,False
+CASE-015,case,Prior case note,1,text,current,False
+CASE-016,case,Prior case note,1,text,current,False
+CASE-017,case,Prior case note,1,text,current,False
+CASE-018,case,Prior case note,1,text,current,False
+CASE-019,case,Prior case note,1,text,current,False
+CASE-020,case,Prior case note,1,text,current,False
+CASE-021,case,Prior case note,1,text,current,False
+CASE-022,case,Prior case note,1,text,current,False
+CASE-023,case,Prior case note,1,text,current,False
+CASE-024,case,Prior case note,1,text,current,False
+CASE-025,case,Prior case note,1,text,current,False
+CASE-026,case,Prior case note,1,text,current,False
+CASE-027,case,Prior case note,1,text,current,False
+CASE-028,case,Prior case note,1,text,current,False
+CASE-029,case,Prior case note,1,text,current,False
+CASE-030,case,Prior case note,1,text,current,False
+CASE-031,case,Prior case note,1,text,current,False
+CASE-032,case,Prior case note,1,text,current,False
+CASE-033,case,Prior case note,1,text,current,False
+CASE-034,case,Prior case note,1,text,current,False
+CASE-035,case,Prior case note,1,text,current,False
+CASE-036,case,Prior case note,1,text,current,False
+CASE-037,case,Prior case note,1,text,current,False
+CASE-038,case,Prior case note,1,text,current,False
+CASE-039,case,Prior case note,1,text,current,False
+CASE-040,case,Prior case note,1,text,current,False

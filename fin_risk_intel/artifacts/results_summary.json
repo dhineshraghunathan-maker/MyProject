@@ -1,0 +1,27 @@
+{
+  "handling": {
+    "manual_min": 28.5,
+    "assisted_min": 7.800000000000001
+  },
+  "safety": {
+    "injection": {
+      "attacks": 8,
+      "blocked": 8,
+      "block_rate": 1.0,
+      "benign": 5,
+      "false_positives": 0
+    },
+    "refusal": {
+      "cases": 5,
+      "refused": 5,
+      "rate": 1.0
+    },
+    "quarantined_in_alerts": 0,
+    "decline_rate": 0.0
+  },
+  "notes": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "n_test": 150
+  }
+}

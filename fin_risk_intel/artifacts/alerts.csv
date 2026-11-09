@@ -1,0 +1,54 @@
+customer_id,tier,ens_full,rule_hits,outcome_is_fraud
+C00663,ESCALATE,0.9019957713992824,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h) | R5 Document mismatch (>0.08) | R7 High-risk country (>5% of txns)",1
+C01289,ESCALATE,0.9003555868785239,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h) | R5 Document mismatch (>0.08) | R7 High-risk country (>5% of txns)",1
+C02387,ESCALATE,0.8833995386981035,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h) | R5 Document mismatch (>0.08)",1
+C01374,ESCALATE,0.8742311635058945,R3 Night activity (>8% of txns 00-06h) | R6 Non-home device (>5% of txns) | R7 High-risk country (>5% of txns),1
+C01118,ESCALATE,0.8742311635058945,R3 Night activity (>8% of txns 00-06h) | R6 Non-home device (>5% of txns) | R7 High-risk country (>5% of txns),1
+C00999,ESCALATE,0.8741799077396207,R3 Night activity (>8% of txns 00-06h) | R6 Non-home device (>5% of txns) | R7 High-risk country (>5% of txns),1
+C00266,ESCALATE,0.8740709892362891,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h) | R5 Document mismatch (>0.08)",1
+C01509,ESCALATE,0.8739748846745259,R3 Night activity (>8% of txns 00-06h) | R6 Non-home device (>5% of txns) | R7 High-risk country (>5% of txns),1
+C00593,ESCALATE,0.873103536647873,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h) | R7 High-risk country (>5% of txns)",1
+C01606,ESCALATE,0.873103536647873,R3 Night activity (>8% of txns 00-06h) | R6 Non-home device (>5% of txns) | R7 High-risk country (>5% of txns),1
+C02157,ESCALATE,0.8726934905176833,R3 Night activity (>8% of txns 00-06h) | R6 Non-home device (>5% of txns) | R7 High-risk country (>5% of txns),1
+C01026,ESCALATE,0.8724372116863148,R3 Night activity (>8% of txns 00-06h) | R6 Non-home device (>5% of txns) | R7 High-risk country (>5% of txns),1
+C00051,ESCALATE,0.8714633521271143,R3 Night activity (>8% of txns 00-06h) | R6 Non-home device (>5% of txns) | R7 High-risk country (>5% of txns),1
+C01723,ESCALATE,0.8708482829318299,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h) | R7 High-risk country (>5% of txns)",1
+C01984,ESCALATE,0.8705407483341876,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h) | R7 High-risk country (>5% of txns)",1
+C02686,ESCALATE,0.8698231676063558,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h) | R7 High-risk country (>5% of txns)",1
+C02505,REVIEW,0.8695668887749872,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h) | R7 High-risk country (>5% of txns)",1
+C01434,REVIEW,0.8694131214761661,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h) | R7 High-risk country (>5% of txns)",1
+C01714,REVIEW,0.8694131214761661,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h) | R7 High-risk country (>5% of txns)",1
+C00688,REVIEW,0.8693618657098924,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h) | R7 High-risk country (>5% of txns)",1
+C01954,REVIEW,0.8693618657098924,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h) | R7 High-risk country (>5% of txns)",1
+C02569,REVIEW,0.8693106099436188,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h) | R7 High-risk country (>5% of txns)",1
+C01338,REVIEW,0.8692080984110713,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h) | R7 High-risk country (>5% of txns)",1
+C02304,REVIEW,0.8689518195797028,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h) | R7 High-risk country (>5% of txns)",1
+C00883,REVIEW,0.8682790876473603,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h) | R5 Document mismatch (>0.08)",1
+C01475,REVIEW,0.8603376473603281,"R1 Structuring (>=3 txns of 9,000-9,999) | R5 Document mismatch (>0.08) | R7 High-risk country (>5% of txns)",1
+C02073,REVIEW,0.854353536647873,R3 Night activity (>8% of txns 00-06h) | R6 Non-home device (>5% of txns),1
+C01849,REVIEW,0.8520470271655561,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h)",1
+C01817,REVIEW,0.851893259866735,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h)",1
+C01634,REVIEW,0.8516882368016402,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h)",1
+C02347,REVIEW,0.8489204254228601,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h)",1
+C01379,REVIEW,0.8437467965146079,R6 Non-home device (>5% of txns) | R7 High-risk country (>5% of txns),1
+C02355,REVIEW,0.8343669912865198,R2 High-value vs income (>=3x monthly) | R7 High-risk country (>5% of txns),1
+C01461,REVIEW,0.8285686827268067,R5 Document mismatch (>0.08) | R6 Non-home device (>5% of txns),1
+C02416,REVIEW,0.8071597898513583,R2 High-value vs income (>=3x monthly),1
+C00428,REVIEW,0.8056733726294208,R6 Non-home device (>5% of txns),1
+C00648,REVIEW,0.8033414282951348,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h) | R7 High-risk country (>5% of txns)",1
+C01402,REVIEW,0.8027133521271143,"R1 Structuring (>=3 txns of 9,000-9,999) | R3 Night activity (>8% of txns 00-06h) | R5 Document mismatch (>0.08) | R7 High-risk country (>5% of txns)",1
+C02536,REVIEW,0.8018804459251666,R6 Non-home device (>5% of txns),1
+C00154,REVIEW,0.8002242439774474,"R1 Structuring (>=3 txns of 9,000-9,999) | R5 Document mismatch (>0.08)",1
+C01805,REVIEW,0.7997789595079446,R5 Document mismatch (>0.08),1
+C00825,REVIEW,0.7842997180932855,R2 High-value vs income (>=3x monthly),1
+C02902,REVIEW,0.7727063044592517,R5 Document mismatch (>0.08) | R7 High-risk country (>5% of txns),1
+C01203,REVIEW,0.7713832649923116,R2 High-value vs income (>=3x monthly),1
+C02183,REVIEW,0.7522648641722194,R5 Document mismatch (>0.08),1
+C01783,REVIEW,0.7440639415684265,"R1 Structuring (>=3 txns of 9,000-9,999)",1
+C01930,REVIEW,0.7408868848844631,R2 High-value vs income (>=3x monthly) | R6 Non-home device (>5% of txns) | R7 High-risk country (>5% of txns),0
+C00351,REVIEW,0.7330087134802665,,1
+C02165,REVIEW,0.722027165556125,R3 Night activity (>8% of txns 00-06h),1
+C00213,REVIEW,0.6910290047677419,,1
+C01706,REVIEW,0.6794880830343414,R7 High-risk country (>5% of txns),1
+C00280,REVIEW,0.678216299333675,,1
+C00570,REVIEW,0.6386981035366479,,1
